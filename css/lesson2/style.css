@@ -1,0 +1,22 @@
+body {
+    font-size: 22px;
+}
+
+p {
+    color: blueviolet;
+}
+.heading{
+    font-style: italic;
+    color: violet;
+    text-decoration: underline;
+}
+
+span{
+    color: red;
+    background-color: yellow;
+}
+#second{
+    color: aqua;
+    text-decoration: none;
+}
+

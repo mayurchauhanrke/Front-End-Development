@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>CSS Selectors</h1>
+    </main>
+
+    <h2 class="heading">Article 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sint nobis alias. Aliquam totam et nihil
+        reprehenderit. Eligendi, minima. Saepe pariatur unde voluptates quod voluptate possimus consectetur corrupti
+        ducimus repellat qui officiis enim sequi repudiandae ut inventore, natus consequuntur, quisquam sint est
+        accusantium illo eaque? Quaerat maiores corporis quo cumque!</p>
+
+    <h2 class="heading">Article 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sint nobis alias. Aliquam totam et nihil
+        reprehenderit. <span>Eligendi, minima.</span> Saepe pariatur unde voluptates quod voluptate possimus consectetur
+        corrupti
+        ducimus repellat qui officiis enim sequi repudiandae ut inventore, natus consequuntur, quisquam sint est
+        accusantium illo eaque? Quaerat maiores corporis quo cumque!</p>
+
+    <h2 id="second" class="heading">Article 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sint nobis alias. Aliquam totam et nihil
+        reprehenderit. <span>Eligendi, minima.</span> Saepe pariatur unde voluptates quod voluptate possimus consectetur
+        corrupti
+        ducimus repellat qui officiis enim sequi repudiandae ut inventore, natus consequuntur, quisquam sint est
+        accusantium illo eaque? Quaerat maiores corporis quo cumque!</p>
+
+</body>
+
+</html>
+
+<!-- 
+Summary
+1 Universal Selector (*): Selects all elements.
+2 Type Selector (element): Selects all elements of the specified type.
+3 Class Selector (.classname): Selects all elements with the specified class.
+4 ID Selector (#idname): Selects a single element with the specified ID.
+5 Attribute Selector ([attribute]): Selects elements based on attributes.
+6 Descendant Selector (ancestor descendant): Selects all descendants of a specified element.
+7 Child Selector (parent > child): Selects direct children of a specified element.
+8 Adjacent Sibling Selector (element + adjacent): Selects an element immediately preceded by another.
+9 General Sibling Selector (element ~ siblings): Selects all siblings of a specified element.
+10 Pseudo-Class Selectors (:pseudo-class): Select elements based on their state.
+11 Pseudo-Element Selectors (::pseudo-element): Select parts of elements.
+-->
+
+
+
+<!-- 
+Hierarchy Order
+1,0,0,0 (Inline Styles)
+0,1,0,0 (ID Selectors)
+0,0,1,0 (Class Selectors, Attribute Selectors, Pseudo-Classes)
+0,0,0,1 (Type Selectors, Pseudo-Elements)
+0,0,0,0 (Universal Selector)
+Note: When specificity is equal, the last rule in the stylesheet wins. 
+The !important declaration overrides any rule, regardless of specificity. 
+-->
+
+<!-- 
+Summary
+Inheritance: The mechanism by which child elements inherit certain styles from their parent elements.
+Inherited Properties: Include color, font-family, font-size, etc.
+Non-Inherited Properties: Include margin, padding, border, etc.
+Keywords:
+inherit: Forces a property to inherit from its parent.
+initial: Resets the property to its default value.
+unset: Acts as inherit for inherited properties, otherwise as initial.
+Understanding inheritance in CSS helps you manage and apply styles more effectively, 
+reducing redundancy and ensuring consistency across your web pages.
+-->
