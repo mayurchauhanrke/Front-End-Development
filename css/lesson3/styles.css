@@ -1,0 +1,21 @@
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: papayawhip;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    color: #130; 
+}
+
+/* 
+background-color: ;
+color: ;
+color: rgb(0,0,0);
+color: rgba(0,0,0,1);
+color: #000000; or #FFFFFF; or #000; or #fff; or #00f; 
+rgb, rgba, #, hsl, hsla
+coolors 
+*/
